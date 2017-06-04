@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.main{
+    width: auto;
+    clear: both;
+}
+
+.sidebar{
+    width: 30%;
+    float: right;
+}
+
+
+/** Header **/
+header{
+    padding: 12px 8px;    
+    width: 100%;
+    z-index: 400;
+    box-sizing: border-box;
+}
+
+.header-container{
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#logo{
+    background: url(../logo.png) no-repeat;
+    height: 50px;
+    width: 237px;
+    background-size: contain;
+    display: inline-block;
+    float: left;
+}
+
+#logo img{
+    display: none;
+}
+
+/**Navigation**/
+
+.header-nav{
+    float: right;
+}
+
+.menu ul{
+    list-style: none;
+    text-align: left;
+    margin: 0;
+}
+
+.header-nav li{
+    display: inline-block;
+    margin-left: 22px;
+    padding: 0;
+}
+
+.header-nav .menu a{
+    font-size: 16px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    color: #43566a;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+/**Content**/
+
+.main-content{
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.content{
+    width: 70%;
+    float: left;
+}
+
+
+
+/**Footer**/
+footer{
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 100px 8px 50px;
+    overflow: hidden;
+    background-color: #fff;
+}
