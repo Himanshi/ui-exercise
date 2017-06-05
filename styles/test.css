@@ -15,6 +15,10 @@ body{
     float: right;
 }
 
+.sidebar.hidden{
+	width: 0;
+}
+
 
 /** Header **/
 header{
@@ -80,6 +84,7 @@ header{
     color: #43566a;
     text-transform: uppercase;
     text-decoration: none;
+	  cursor: pointer;
 }
 
 .header-nav .menu a:hover,
@@ -102,6 +107,10 @@ header{
 .content{
     width: 70%;
     float: left;
+}
+
+.content.full-width{
+	width: 100%;
 }
 
 .content-photo-grid{
